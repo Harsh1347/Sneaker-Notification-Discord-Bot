@@ -1,0 +1,58 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+## KEYWORDS ##
+KEYWORDS = ['air jordan', 'dunk', 'yeezy']
+
+## MONGODB URL ##
+MONGO = f"{os.getenv('MONGODB-cluster')}"
+
+## REFRESH RATE ##
+REFRESH_RATE = 120
+
+## WEBHOOK LINKS ##
+ADIDAS_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_ADIDAS_WEBHOOK_LINK')}"
+]
+
+AJIO_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_AJIO_WEBHOOK_LINK')}"
+]
+
+AJIO_RESTOCK_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_AJIO_RESTOCK_WEBHOOK_LINK')}"
+]
+
+MYNTRA_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_MYNTRA_WEBHOOK_LINK')}"
+]
+
+MYNTRA_RESTOCK_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_MYNTRA_RESTOCK_WEBHOOK_LINK')}"
+]
+
+NIKE_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_NIKE_WEBHOOK_LINK')}"
+]
+
+NIKE_NEW_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_NIKE_NEW_WEBHOOK_LINK')}"
+]
+
+SUPERKICKS_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_SUPERKICKS_WEBHOOK_LINK')}"
+]
+
+SUPERKICKS_RESTOCK_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_SUPERKICKS_RESTOCK_WEBHOOK_LINK')}"
+]
+
+VEGNONVEG_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_VEGNONVEG_WEBHOOK_LINK')}"
+]
+
+VEGNONVEG_RESTOCK_WEBHOOK_LINK = [
+    f"{os.getenv('DISCORD_VEGNONVEG_RESTOCK_WEBHOOK_LINK')}"
+]
