@@ -11,8 +11,7 @@ A Python-based Discord bot designed to monitor and track new and restock updates
 - VEGNONVEG
 
 ## Results
-- Contributed to generating $300K for a client by creating a Discord bot for a community of 1,200+ members.
-- Facilitated the sale of 1,000+ premium sneakers through real-time tracking and notifications across 6 websites.
+- Contributed to generating $300K for the client through the sale of 1,000+ premium sneakers by real-time tracking and notifications across 6 websites.
 
 ## How It Works
 1. The bot scrapes the listed websites for sneaker data such as name, sizes available, and cost.
