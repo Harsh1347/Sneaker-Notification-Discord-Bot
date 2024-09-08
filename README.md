@@ -19,8 +19,8 @@ A Python-based Discord bot designed to monitor and track new and restock updates
 3. Every 120 seconds, the scraped data is compared with databaseto check for new or restocked sneakers.
 4. Notifications are sent to a Discord channel using Discord webhooks.
 
-## Technologies Used
-- Python: Main programming language.
+## Technologies/Lib Used
+- Python
 - BeautifulSoup & Selenium: For web scraping.
 - MongoDB: Database for storing scraped data.
 - Discord Webhook: For discord bot and sending notifications.
