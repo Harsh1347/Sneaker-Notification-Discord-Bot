@@ -66,12 +66,9 @@ def web_adidas():
             init_value = False
             for i in range(len(Adidas)):
                 ele = Adidas[i]
-                # list_item[ele['id']] = {
-                #     "price": ele['price'], "size": ele['size']}
                 db.adidas.update_one({"id": ele['id']},  {'$set': {
                                      "id": ele['id'], "price": ele['price'], "size": ele['size'], "prod_name": ele['prod_name']}}, upsert=True)
             print("Adidas Running")
-            # embedMsg(ele, "TESTING", ele['size'])
         else:
             for i in range(len(Adidas)):
                 ele = Adidas[i]
